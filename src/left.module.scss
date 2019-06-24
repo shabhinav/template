@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+$fontstyle: 'Lora', serif;
+
+
+
+.leftcontainer{
+    .btn{
+        border-radius: 0 !important;
+        background:rgba(65, 65, 65, 1);
+        color:white ;
+        padding: 6px 4em !important;
+        margin: 5px 0px;;
+        transition: background-color 2s ease-out;
+        &:hover{
+            background:  #ff9999;
+            }
+        }
+
+    input{
+        border: none;
+        border-bottom:1px solid black ;
+        &::placeholder{
+            color: black;
+            }
+        }
+    h1{
+        font-size: 54px;
+        font-weight: bold;
+        line-height: 50px;
+        margin-top:20%;
+    }
+    .para{
+        margin: 40px 0px;
+        font-size: 20px;
+        line-height: 1.9em;
+    }
+    img{
+        margin-top: 50px;
+        width: 80vh;
+        height: 80vh;
+        margin-right: 0px;
+    }
+    .socialicon_wrapper{
+        margin:5px 0px;
+        i{
+            margin-right: 30px;
+        }
+    }
+        font-family: $fontstyle;
+        line-height: 2em;
+    }
+
+    

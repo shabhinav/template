@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+$fontstyle:'Merriweather', serif;
+
+@mixin name {
+    font-family: $fontstyle;
+}
+
+
+

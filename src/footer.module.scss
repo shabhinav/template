@@ -1,0 +1,22 @@
+.footer {
+    position: sticky;
+    bottom:0;
+    width: 100%;
+    left:0;
+    background-color: white;
+    padding: 30px 0px;
+
+    .footerlefttxt{
+        text-align: right;
+    }
+    @media only  screen and (max-width:420px){
+        .footer{
+            padding:10px 0px;
+            p{
+                font-size:13px;
+            }
+ 
+        }
+
+        }
+    }
